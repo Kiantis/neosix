@@ -4,8 +4,8 @@ A [NeosModLoader](https://github.com/zkxs/NeosModLoader) mod for [Neos VR](https
 
 ## Installation
 1. Install [NeosModLoader](https://github.com/zkxs/NeosModLoader).
-1. Place [wasmtime.dll](https://github.com/Kiantis/neosix/raw/master/neosix/libs/wasmtime.dll) into your `nml_mods` folder.
-1. Place [Wasmtime.Dotnet.dll](https://github.com/Kiantis/neosix/raw/master/neosix/libs/Wasmtime.Dotnet.dll) into your `nml_mods` folder.
+1. Place [wasmtime.dll](https://github.com/Kiantis/neosix/raw/master/neosix/libs/wasmtime.dll) into your `nml_libs` folder.
+1. Place [Wasmtime.Dotnet.dll](https://github.com/Kiantis/neosix/raw/master/neosix/libs/Wasmtime.Dotnet.dll) into your `nml_libs` folder.
 1. Place `neosix.dll` into your `nml_mods` folder. You'll have to build it from the project for now.
 1. Start the game. If you want to verify that the mod is working you can check your Neos logs. This string should appear: `neosix wasm round trip test: Hello from WASM!`
 
